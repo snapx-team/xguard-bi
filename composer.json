@@ -1,0 +1,27 @@
+{
+    "name": "xguard/xguard-bi",
+    "description": "A plugin to view XGuard Business Intelligence",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Siamak Samie",
+            "email": "siamak.samie@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Xguard\\BusinessIntelligence\\": "src/"
+        }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+              "Xguard\\BusinessIntelligence\\BusinessIntelligenceServiceProvider"
+            ]
+        }
+    }
+}

@@ -1,0 +1,36 @@
+
+@import "~tailwindcss";
+@import '~vue2-datepicker/index.css';
+
+// vue select overrides
+
+.vs__dropdown-toggle {
+    min-height: 50px;
+    margin-top: 8px;
+    flex-flow: wrap;
+    background: white !important;
+}
+
+.vs__selected {
+    padding: 0 0.45em;
+}
+
+.vs__selected-options {
+    display: contents !important;
+}
+
+.vs__deselect {
+    margin-left: 5px;
+    padding-top: 1px;
+}
+
+// vue date picker overrides
+
+.mx-datepicker {
+    width: 100%;
+}
+
+.mx-input {
+    min-height: 50px;
+    min-width: 200px;
+}
